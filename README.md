@@ -178,36 +178,45 @@ Emerging product/project concept.
 
 <div align="center">
 
-<!-- GitHub Stats -->
+<!-- GitHub Profile Summary -->
 <img
-  src="https://github-readme-stats.vercel.app/api?username=karthik123678&show_icons=true&theme=dark&hide_border=true&bg_color=0B0B0F&title_color=8B5CF6&icon_color=22D3EE&text_color=C7D2FE"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=karthik123678&theme=github_dark"
+  width="95%"
+  alt="Karthik GitHub Profile Summary"
+/>
+
+<br><br>
+
+<!-- Stats -->
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=karthik123678&theme=github_dark"
+  width="47%"
   alt="Karthik GitHub Stats"
-  width="48%"
 />
 
 <!-- Top Languages -->
 <img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=karthik123678&layout=compact&theme=dark&hide_border=true&bg_color=0B0B0F&title_color=8B5CF6&text_color=C7D2FE"
-  alt="Karthik Top Languages"
-  width="40%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=karthik123678&theme=github_dark"
+  width="47%"
+  alt="Karthik Repository Languages"
 />
 
 <br><br>
 
-<!-- GitHub Streak -->
+<!-- Most Commit Language -->
 <img
-  src="https://streak-stats.demolab.com/?user=karthik123678&theme=dark&hide_border=true&background=0B0B0F&ring=8B5CF6&fire=22D3EE&currStreakLabel=C7D2FE"
-  alt="Karthik GitHub Streak"
-  width="60%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=karthik123678&theme=github_dark"
+  width="47%"
+  alt="Karthik Most Commit Language"
 />
 
 <br><br>
 
-<!-- GitHub Activity Graph -->
+<!-- Contribution Activity -->
 <img
   src="https://github-readme-activity-graph.vercel.app/graph?username=karthik123678&theme=react-dark&hide_border=true"
-  alt="Karthik GitHub Activity Graph"
   width="95%"
+  alt="Karthik GitHub Activity Graph"
 />
 
 </div>
