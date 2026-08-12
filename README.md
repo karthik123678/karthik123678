@@ -178,16 +178,39 @@ Emerging product/project concept.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=karthik123678&show_icons=true&theme=dark&hide_border=true&bg_color=0B0B0F&title_color=8B5CF6&icon_color=22D3EE&text_color=C7D2FE" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karthik123678&layout=compact&theme=dark&hide_border=true&bg_color=0B0B0F&title_color=8B5CF6&text_color=C7D2FE" width="39%" />
+<!-- GitHub Stats -->
+<img
+  src="https://github-readme-stats.vercel.app/api?username=karthik123678&show_icons=true&theme=dark&hide_border=true&bg_color=0B0B0F&title_color=8B5CF6&icon_color=22D3EE&text_color=C7D2FE"
+  alt="Karthik GitHub Stats"
+  width="48%"
+/>
 
-<br/>
+<!-- Top Languages -->
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=karthik123678&layout=compact&theme=dark&hide_border=true&bg_color=0B0B0F&title_color=8B5CF6&text_color=C7D2FE"
+  alt="Karthik Top Languages"
+  width="40%"
+/>
 
-<img src="https://github-readme-streak-stats.demolab.com/?user=karthik123678&theme=dark&hide_border=true&background=0B0B0F&ring=8B5CF6&fire=22D3EE&currStreakLabel=C7D2FE" width="60%" />
+<br><br>
+
+<!-- GitHub Streak -->
+<img
+  src="https://streak-stats.demolab.com/?user=karthik123678&theme=dark&hide_border=true&background=0B0B0F&ring=8B5CF6&fire=22D3EE&currStreakLabel=C7D2FE"
+  alt="Karthik GitHub Streak"
+  width="60%"
+/>
+
+<br><br>
+
+<!-- GitHub Activity Graph -->
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=karthik123678&theme=react-dark&hide_border=true"
+  alt="Karthik GitHub Activity Graph"
+  width="95%"
+/>
 
 </div>
-
-<br/>
 
 ## 🐍 Contribution Activity
 
