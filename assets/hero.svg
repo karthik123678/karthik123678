@@ -1,0 +1,108 @@
+<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="900" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#050507"/>
+      <stop offset="100%" stop-color="#0B0B0F"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12121a"/>
+      <stop offset="100%" stop-color="#0B0B0F"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="baseGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#17171f"/>
+      <stop offset="100%" stop-color="#0B0B0F"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="380" fill="url(#bgGrad)"/>
+  <circle cx="150" cy="90" r="160" fill="url(#glow1)"/>
+  <circle cx="760" cy="300" r="180" fill="url(#glow2)"/>
+
+  <!-- floating glass nodes -->
+  <g filter="url(#cardShadow)">
+    <g transform="translate(80,60)">
+      <rect width="130" height="46" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#8B5CF6" stroke-opacity="0.5"/>
+      <text x="65" y="29" text-anchor="middle" font-family="Consolas, monospace" font-size="15" fill="#C4B5FD" font-weight="600">React</text>
+    </g>
+    <g transform="translate(700,50)">
+      <rect width="130" height="46" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#22D3EE" stroke-opacity="0.5"/>
+      <text x="65" y="29" text-anchor="middle" font-family="Consolas, monospace" font-size="15" fill="#67E8F9" font-weight="600">Node.js</text>
+    </g>
+    <g transform="translate(60,280)">
+      <rect width="130" height="46" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#06B6D4" stroke-opacity="0.5"/>
+      <text x="65" y="29" text-anchor="middle" font-family="Consolas, monospace" font-size="15" fill="#67E8F9" font-weight="600">Python</text>
+    </g>
+    <g transform="translate(710,280)">
+      <rect width="130" height="46" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#6366F1" stroke-opacity="0.5"/>
+      <text x="65" y="29" text-anchor="middle" font-family="Consolas, monospace" font-size="15" fill="#A5B4FC" font-weight="600">MongoDB</text>
+    </g>
+  </g>
+
+  <!-- connecting lines to center -->
+  <g stroke="#8B5CF6" stroke-opacity="0.35" stroke-width="1.4">
+    <line x1="210" y1="83" x2="360" y2="150"/>
+    <line x1="700" y1="73" x2="540" y2="150"/>
+    <line x1="190" y1="303" x2="360" y2="240"/>
+    <line x1="710" y1="303" x2="540" y2="240"/>
+  </g>
+
+  <!-- isometric laptop -->
+  <g transform="translate(280,110)" filter="url(#cardShadow)">
+    <!-- screen -->
+    <path d="M20 0 L320 0 L340 150 L0 150 Z" fill="url(#screenGrad)" stroke="url(#accentGrad)" stroke-width="1.5"/>
+    <!-- screen bezel top accent -->
+    <rect x="14" y="14" width="312" height="8" rx="4" fill="#7C3AED" fill-opacity="0.5"/>
+
+    <!-- code lines -->
+    <g font-family="Consolas, monospace" font-size="11">
+      <rect x="26" y="34" width="90" height="6" rx="3" fill="#8B5CF6"/>
+      <rect x="122" y="34" width="50" height="6" rx="3" fill="#4B5563"/>
+      <rect x="26" y="50" width="60" height="6" rx="3" fill="#22D3EE"/>
+      <rect x="92" y="50" width="110" height="6" rx="3" fill="#4B5563"/>
+      <rect x="26" y="66" width="140" height="6" rx="3" fill="#4B5563"/>
+      <rect x="42" y="82" width="90" height="6" rx="3" fill="#6366F1"/>
+      <rect x="26" y="98" width="70" height="6" rx="3" fill="#4B5563"/>
+      <rect x="102" y="98" width="60" height="6" rx="3" fill="#22D3EE"/>
+      <rect x="26" y="114" width="170" height="6" rx="3" fill="#4B5563"/>
+    </g>
+
+    <!-- keyboard base (isometric) -->
+    <path d="M0 150 L340 150 L376 190 L-36 190 Z" fill="url(#baseGrad)" stroke="#27272f" stroke-width="1"/>
+    <rect x="140" y="152" width="60" height="5" rx="2.5" fill="#3f3f4a"/>
+  </g>
+
+  <!-- AI neural node cluster, bottom center -->
+  <g transform="translate(430,300)" filter="url(#soft)" opacity="0.9">
+    <circle cx="0" cy="0" r="3" fill="#22D3EE"/>
+    <circle cx="30" cy="-14" r="3" fill="#8B5CF6"/>
+    <circle cx="-32" cy="-10" r="3" fill="#6366F1"/>
+    <circle cx="14" cy="18" r="3" fill="#06B6D4"/>
+  </g>
+  <g transform="translate(430,300)" stroke="#8B5CF6" stroke-opacity="0.6" stroke-width="1">
+    <line x1="0" y1="0" x2="30" y2="-14"/>
+    <line x1="0" y1="0" x2="-32" y2="-10"/>
+    <line x1="0" y1="0" x2="14" y2="18"/>
+    <line x1="30" y1="-14" x2="14" y2="18"/>
+  </g>
+
+  <text x="450" y="360" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="13" fill="#6B7280" letter-spacing="2">FULL STACK  •  AI / ML  •  MODERN ENGINEERING</text>
+</svg>
