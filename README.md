@@ -61,9 +61,6 @@ I'm a Computer Science Engineering student and Full Stack MERN Developer focused
 <br/>
 <img src="https://skillicons.dev/icons?i=aws,git,github,docker,postman,terraform&theme=dark" />
 
-**AI / ML**
-<br/>
-<img src="https://skillicons.dev/icons?i=python,tensorflow,opencv&theme=dark" />
 
 </div>
 
